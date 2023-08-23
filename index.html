@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Results summary component</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="result">
+            <h3>Your Result</h3>
+            <div class="circle">
+                <p><span>76</span> of 100</p>
+            </div>
+            <div class="result-content">
+                <h3>Great</h3>
+                <p>You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+        </div>
+        <div class="summary">
+            <h3>Summary</h3>
+            <div class="reaction one">
+                <div class="two">
+                    <img src="/images/icon-reaction.svg" alt="">
+                    <p>Reaction</p>
+                </div>
+                <p class="para"><span>80</span> / 100</p>
+            </div>
+            <div class="memory one">
+                <div class="two">
+                    <img src="/images/icon-memory.svg" alt="">
+                    <p>Memory</p>
+                </div>
+                <p class="para"><span>92</span> / 100</p>
+            </div>
+            <div class="verbal one">
+                <div class="two">
+                    <img src="/images/icon-verbal.svg" alt="">
+                    <p>Verbal</p>
+                </div>
+                <p class="para"><span>61</span> / 100</p>
+            </div>
+            <div class="visual one">
+                <div class="two">
+                    <img src="/images/icon-visual.svg" alt="">
+                    <p>Visual</p>
+                </div>
+                <p class="para"><span>72</span> / 100</p>
+            </div>
+            <button>Continue</button>
+        </div>
+    </div>
 </body>
 </html>
